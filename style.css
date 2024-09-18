@@ -15,6 +15,16 @@ nav {
     padding-top: 24px !important;
 }
 
+.landing-page .container{
+    width: 81.111% !important;
+    margin: 0 auto;
+    --bs-gutter-x: 0;
+}
+
+.navbar .container-fluid{
+    --bs-gutter-x: 0;
+}
+
 a.nav-link {
     font-size: 14px;
     font-family: helvetica;
@@ -295,6 +305,10 @@ button.btn-close.btn-close-black {
     /* navbar */
     .offcanvas-body {
         background-color: #ffffff;
+    }
+
+    .landing-page .container{
+        width: 90% !important;
     }
 
     /* body-lading-page */
